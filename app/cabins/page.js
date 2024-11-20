@@ -1,11 +1,8 @@
-import Counter from "@/app/_components/Counter";
 import CabinCard from "@/app/_components/CabinCard";
-
-export const metadata = {
-  title: "Cabins",
-};
+import Counter from "@/app/_components/Counter";
 
 export default function Page() {
+  // CHANGE
   const cabins = [];
 
   return (
