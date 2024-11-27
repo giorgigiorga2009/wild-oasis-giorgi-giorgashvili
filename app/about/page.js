@@ -50,6 +50,7 @@ export default function Page() {
           src={image2}
           fill
           className="object-cover"
+          placeholder="blur"
           alt="Family that manages The Wild Oasis"
         />
       </div>

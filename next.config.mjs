@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  webpack: (config) => {
-    config.watchOptions = {
-      poll: 1000,
-      aggregateTimeout: 300,
-    };
-    return config;
+  images: {
+    domains: ["nomauznkzwsyvjipldrf.supabase.co"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "nomauznkzwsyvjipldrf.supabase.co",
+        port: "",
+        pathname: "/storage/v1/object/public/cabin-images/**",
+      },
+    ],
   },
 };
 

@@ -3,5 +3,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <h1>Your Account</h1>;
+  return <h1>Welcome to Oasis</h1>;
 }
